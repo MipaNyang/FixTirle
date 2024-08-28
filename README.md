@@ -1,7 +1,7 @@
 # FixTitle
 Fixed Overlayer Title tags
 # Tag List
-- FixArtis
+- FixArtist
 - FixTitle
 - FixAuthor
 - FullCaption
