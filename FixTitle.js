@@ -17,7 +17,6 @@ const getFixColorArtist = () => fixLegacyArtist(cleanText(ArtistRaw(), true));
 const getFixColorTitle = () => fixLegacyTitle(cleanText(TitleRaw(), true));
 const getFixColorAuthor = () => fixLegacyAuthor(cleanText(AuthorRaw(), true));
 
-// const getFullCaption = () => fixLegacyFullCaption(LevelData() ? cleanText(LevelData().fullCaption, false) : null);
 const getFullCaption = () => fixLegacyFullCaption(LevelData() ? cleanText(LevelData().fullCaption, false) : null);
 const getColorFullCaption = () => getFixAuthor() === "ADOFAI Official Level" ? `${getFixColorArtist()} ${getFixColorTitle()}` : `${getFixColorArtist()} - ${getFixColorTitle()}`
 
